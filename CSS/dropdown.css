@@ -1,0 +1,195 @@
+/* Navbar*/
+
+.lista li {
+    max-width: 439;
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    padding: 5%;
+    margin: 3px;
+    margin-right: 20%;
+    margin-left: 20%;
+    list-style: none;
+    list-style-position: outside;
+    height: 20px
+}
+
+ul.lista {
+    list-style: none;
+    list-style-position: outside;
+    margin: 0%;
+    padding:0%;
+}
+
+#torna-su {
+    background-color: rgba(110, 93, 94, .7);
+    color: rgba(110, 93, 94, .7);
+    position: fixed;
+    height: 25px;
+    width: 25px;
+    bottom: 1%;
+    right: 1%;
+    padding: 5px;
+}
+
+#torna-su:hover {
+    font: normal;
+}
+
+/*dropdown-calendario-eventi */
+
+#dropdown-calendario-eventi {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    padding: 5%;
+    margin: 3px;
+    height: 20px;
+    transition: height 0.5s;
+}
+
+#dropdown-calendario-eventi:hover {
+    background: radial-gradient(rgb(179, 2, 12),rgb(0, 0, 0));
+    border: solid 2px #e6bf15;
+    padding: 2px;
+  
+    border-radius: 5px;
+    font-weight: bold;
+    height: 200px;
+}
+
+#dropdown-calendario-eventi div{
+    display: none;
+    clear: both;
+    text-align: center;
+    transition: height 2s;
+    height: 100px;
+}
+
+
+#dropdown-calendario-eventi:hover div{
+    display: block;
+}
+
+/* dropdown-utility-personaggio */
+
+#dropdown-utility-personaggio {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    padding: 5%;
+    margin: 3px;
+    height: 20px;
+    transition: height 0.5s;
+}
+
+#dropdown-utility-personaggio:hover {
+    background: radial-gradient(rgb(179, 2, 12),rgb(0, 0, 0));
+    border: solid 2px #e6bf15;
+    padding: 4px;
+  
+    border-radius: 5px;
+    font-weight: bold;
+    height: 210px;
+}
+
+#dropdown-utility-personaggio div{
+    display: none;
+    clear: both;
+    text-align: center;
+    transition: height 2s;
+    height: 100px;
+}
+
+
+#dropdown-utility-personaggio:hover div{
+    display: block;
+}
+
+/* dropdown-agevolazioni-gameplay */
+
+#dropdown-agevolazioni-gameplay {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    margin: 3px;
+    height: 20px;
+    transition: height 0.5s;
+}
+
+#dropdown-agevolazioni-gameplay:hover {
+    background: radial-gradient(rgb(179, 2, 12),rgb(0, 0, 0));
+    border: solid 2px #e6bf15;
+    padding: 6px;
+  
+    border-radius: 5px;
+    font-weight: bold;
+    height: 240px;
+}
+
+#dropdown-agevolazioni-gameplay div{
+    display: none;
+    clear: both;
+    text-align: center;
+    transition: height 2s;
+    height: 100px;
+}
+
+
+#dropdown-agevolazioni-gameplay:hover div{
+    display: block;
+}
+
+/* Dropdown potenziamenti */
+
+#dropdown-potenziamenti {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    margin: 3px;
+    height: 20px;
+    transition: height 0.5s;
+}
+
+#dropdown-potenziamenti:hover {
+    background: radial-gradient(rgb(179, 2, 12),rgb(0, 0, 0));
+    border: solid 2px #e6bf15;
+    padding: 6px;
+  
+    border-radius: 5px;
+    font-weight: bold;
+    height: 240px;
+}
+
+#dropdown-potenziamenti div{
+    display: none;
+    clear: both;
+    text-align: center;
+    transition: height 2s;
+    height: 100px;
+}
+
+
+#dropdown-potenziamenti:hover div{
+    display: block;
+}
+
+.listanascosta{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.listanascosta li {
+    border: solid black;
+}
+
+
+
+div#sistemadigioco{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.856);
+    border: solid white;
+    padding-bottom: 3%;
+    margin-top: 2.5%; 
+}
+ 
+h3.titololista {
+    font: bold;
+    text-align: center;
+
+}

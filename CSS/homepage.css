@@ -1,0 +1,513 @@
+body {
+    /*background: linear-gradient(#111212, #37145e); background: linear-gradient(#a3080b, #3b0711);*/
+    background-image: url("../images/sfondo.png");
+    background-repeat: no-repeat;
+    background-color: black;
+    font-family: "Arial", serif;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+
+    background-size: cover;
+    background-attachment:fixed;
+    background-position:center center;
+}
+
+img#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+a {
+    color: #e6bf15;
+}
+a:hover {
+    font-weight: bold;
+}
+
+/* Content */
+
+/*livello 1 */
+div#content {
+  background-color: rgba(110, 93, 94, .7);
+  display: flex;
+  padding: 1%;
+  margin: 5%;
+  margin-left:10%;
+  margin-right:10%;
+  font-family: 'Calibri', sans-serif;
+  color:#e6bf15;
+}
+
+#content ul{
+  list-style: none;
+  list-style-position: outside;
+  margin: 0%;
+  padding:0%;
+  padding-bottom: 3%;
+}
+
+#content li{
+  background: radial-gradient(rgba(179, 2, 12,0.7),rgba(0, 0, 0,0.7));
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+content a {
+  background: radial-gradient(rgba(179, 2, 12,0.7),rgba(0, 0, 0,0.7));
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  margin: 3px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#sinistra a > img {
+  margin-top: 5px;
+  max-width: 300px;
+  width: 100%;
+  height: 121px;
+  border-radius: 5px;
+}
+
+#destra a > img {
+  margin-top: 5px;
+  max-width: 300px;
+  width: 100%;
+  height: 121px;
+  border-radius: 5px;
+}
+
+#capitale-di-shyra:hover{
+  background: radial-gradient(rgb(179, 2, 12),rgb(0, 0, 0));
+  border: solid 2px #e6bf15;
+  padding: 8px;
+  cursor:pointer;
+
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#valle-degli-orchi:hover{
+  background: radial-gradient(rgb(179, 2, 12),rgb(0, 0, 0));
+  border: solid 2px #e6bf15;
+  padding: 8px;
+  cursor:pointer;
+
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#piana-esoterica:hover{
+  background: radial-gradient(rgb(179, 2, 12),rgb(0, 0, 0));
+  border: solid 2px #e6bf15;
+  padding: 8px;
+  cursor:pointer;
+
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#sentiero-magico:hover{
+  background: radial-gradient(rgb(179, 2, 12),rgb(0, 0, 0));
+  border: solid 2px #e6bf15;
+  padding: 8px;
+  cursor:pointer;
+
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#monte-ghiacciato:hover{
+  background: radial-gradient(rgb(179, 2, 12),rgb(0, 0, 0));
+  border: solid 2px #e6bf15;
+  padding: 8px;
+  cursor:pointer;
+
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#tempio-hwang:hover{
+  background: radial-gradient(rgb(179, 2, 12),rgb(0, 0, 0));
+  border: solid 2px #e6bf15;
+  padding: 8px;
+  cursor:pointer;
+
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#sabbie-dell-sofferenza:hover{
+  background: radial-gradient(rgb(179, 2, 12),rgb(0, 0, 0));
+  border: solid 2px #e6bf15;
+  padding: 8px;
+  cursor:pointer;
+
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
+#miniera:hover{
+  background: radial-gradient(rgb(179, 2, 12),rgb(0, 0, 0));
+  border: solid 2px #e6bf15;
+  padding: 8px;
+  cursor:pointer;
+
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#cava-brutale:hover{
+  background: radial-gradient(rgb(179, 2, 12),rgb(0, 0, 0));
+  border: solid 2px #e6bf15;
+  padding: 8px;
+  cursor:pointer;
+
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#sotter-infetto:hover{
+  background: radial-gradient(rgb(179, 2, 12),rgb(0, 0, 0));
+  border: solid 2px #e6bf15;
+  padding: 8px;
+  cursor:pointer;
+
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#rovine-antiche:hover{
+  background: radial-gradient(rgb(179, 2, 12),rgb(0, 0, 0));
+  border: solid 2px #e6bf15;
+  padding: 8px;
+  cursor:pointer;
+
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#terra-dannata:hover{
+  background: radial-gradient(rgb(179, 2, 12),rgb(0, 0, 0));
+  border: solid 2px #e6bf15;
+  padding: 8px;
+  cursor:pointer;
+
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
+#piramide-antica:hover{
+  background: radial-gradient(rgb(179, 2, 12),rgb(0, 0, 0));
+  border: solid 2px #e6bf15;
+  padding: 8px;
+  cursor:pointer;
+
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
+#content li > img {
+  max-width: 300px;
+  max-height: 121px;
+  border-radius: 5px;
+}
+
+#trailer {
+  border: solid 3px #e6bf15;
+  border-radius: 17px;
+  margin: 10px;
+  padding-bottom: 15px;
+}
+
+#mappe-speciali {
+  border: solid 3px #e6bf15;
+  border-radius: 17px;
+  margin: 10px;
+  padding-bottom: 15px;
+}
+
+#mappe-speciali img{
+  width: 450px;
+  height: 450px;
+  border-radius: 17px;
+}
+
+#mappe-speciali a {
+  margin: 0px;
+  max-width: 645px;
+}
+
+#titolo-social{
+  max-width: 651;
+  background-color:rgba(63, 32, 34, 0.7);
+  margin-top: 0px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  padding: 3px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+#titolo-mappe-speciali{
+  max-width: 651;
+  background-color:rgba(63, 32, 34, 0.7);
+  margin-top: 0px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  padding: 3px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+#titolo-trailer {
+  background-color:rgba(63, 32, 34, 0.7);
+  margin-top: 0px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  padding: 3px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#titolo-lista-dungeon{
+  background-color:rgba(63, 32, 34, 0.7);
+  margin-top: 0px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  padding: 3px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#titolo-lista-mappe{
+  background-color:rgba(63, 32, 34, 0.7);
+  margin-top: 0px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  padding: 3px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#titolo-lista-system{
+  background-color:rgba(63, 32, 34, 0.7);
+  margin-top: 0px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  padding: 3px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*piede
+*/
+
+/* Sinistra */
+#sinistra {
+  background-color: rgba(112, 14, 20, 0.7);
+  padding: 5px;
+  flex-grow: 1;
+  text-align: center;
+  order: 1;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 17px;
+}
+
+#mappe{
+  border: solid #e6bf15;
+  border-radius: 20px;
+  margin: 10px;
+}
+#img-mappe-speciali {
+  opacity: 0.8;
+}
+
+#img-mappe-speciali:hover {
+  background-color: black;
+  opacity: 1;
+  cursor: pointer;
+}
+
+#social{
+  border: solid #e6bf15;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+#centro {
+  background-color: rgba(112, 14, 20, 0.7);
+  flex-grow: 2;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  text-align: center;
+  order: 2;
+  border-radius: 17px;
+}
+
+#system{
+  border: solid #e6bf15;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+#system img{
+  height: 20px;
+  width: 20px;
+  vertical-align: text-bottom;
+  margin-right: 10px;
+}
+
+#destra {
+  background-color: rgba(112, 14, 20, 0.7);
+  flex-grow: 1;
+  text-align: center;
+  order: 3;
+  padding: 0px;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  border-top-left-radius: 17px;
+  border-bottom-left-radius: 17px;
+}
+
+#dungeon {
+  border: solid #e6bf15;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+
+/* Footer */
+footer{
+    color: white;
+    clear: both;
+    text-align: center;
+}
+
+footer li{
+display: inline-block;
+display: flex inline center;
+}
+
+#footer-top {
+    background-color: #101113;
+    padding: 3px;
+}
+
+#footer-top a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+}
+
+#footer-top a:hover{
+    text-decoration: underline;
+}
+
+#footer-bot {
+    padding: 12px;
+    background-color: #101113;
+}
+section {
+  width: 100%;
+  display: inline-block;
+  background: #ccc;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  /*background-color: #33383b;*/
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+#logo-facebook {
+    background-image: "../images/logo-facebook.png"
+}

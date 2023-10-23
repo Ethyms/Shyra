@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name = "description" content = "Shyra"/>
+        <meta name = "kaywords" content = "Wiki, Shyra, Metin2, online shop, Server"/>
+        <meta name = "author" contet = "Shyra"/>
+        <meta name = "viewport" content = "width=device-width, initial-scale-1.0"/>
+
+        <title>Shyra online Guida - Sotterraneo infetto</title>
+        <link type="image/png" rel ="icon" href="images/icon.png">
+
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        <link rel="stylesheet" type="text/css" href="CSS/dungeon.css">
+        <link rel="stylesheet" type="text/css" href="CSS/popup.css">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
+        <script src="Javascript/popup.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="JS/popup.js"></script> 
+    </head>
+
+    <body>
+        <header>
+            <a href = "homepage.html"><img id = "logo" src = "images/logo.png" href = "homepage" alt="Logo Shyra" width="675" height="auto" title="Logo Shyra"></a>
+        </header>
+        <br>
+        <div id = "content-main">
+        <div id = "torna-su"> <a href = "#top"><img src = "images/freccia-su.PNG" height= "25px" width = "25px"></a></div>
+        <div id = "Navbar">
+            <div class = "contenitore-navbar"> <h3 class = "titololista">Shyra</h3>
+                <ul class = "lista">
+                    <li><a href = "homepage.html">Guida</a></li>
+                    <li><a href = "https://shyra.online/download" target="_blank">Download</a></li>
+                    <li><a href = "https://shyra.online/" target="_blank">Sito web</a></li>
+                </ul>
+
+            </div>
+            <div class = "contenitore-navbar"> <h3 class = "titololista">Mappe</h3>
+                <ul class = "lista">
+                    <li><a href = "capitale-di-shyra.html">Capitale di Shyra</a></li>
+                    <li id = "dropdown-valle"><a href = "valle-degli-orchi.html">Valle degli orchi</a>
+                        <div class = "listanascosta">
+                            <p>[lv 30 - 50]</p>
+                        </div>
+                    </li>
+                    <li id = "dropdown-piana-esoterica"><a href = "piana-esoterica.html">Piana esoterica</a>
+                        <div class = "listanascosta">
+                            <p>[lv 50 - 75]</p>
+                        </div>
+                    </li>
+                    <li id = "dropdown-sentiero-magico"><a href = "sentiero-magico.html">Sentiero magico</a>
+                        <div class = "listanascosta">
+                            <p>[lv 75 - 95]</p>
+                        </div>
+                    </li>
+                    <li id = "dropdown-monte-ghiacciato"><a href = "monte-ghiacciato.html">Monte ghiacciato</a>
+                        <div class = "listanascosta">
+                            <p>[lv 95 - 115]</p>
+                        </div>
+                    </li>
+                    <li id = "dropdown-tempio-hwang"><a href = "tempio-hwang.html">Tempio Hwang</a>
+                        <div class = "listanascosta">
+                            <p>[lv 115 - 130]</p>
+                        </div>
+                    </li>
+                    <li id = "dropdown-sabbie-della-sofferenza"><a href = "sabbie-della-sofferenza.html">Sabbie della sofferenza</a>
+                        <div class = "listanascosta">
+                            <p>[lv 125 - 130]</p>
+                        </div>
+                    <li id = "dropdown-mappe-speciali"><a href = "mappe-speciali.html">Mappe speciali</a>
+                        <div class = "listanascosta">
+                            <p>[lv 115+]</p>
+                        </div>
+                    </li>
+                    <li><a href = "miniera.html">Miniera</a></li>
+                </ul>
+            </div>
+
+            <div class = "contenitore-navbar"> <h3 class = "titololista">Dungeon</h3>
+                <ul class = "lista">
+                    <li id = "dropdown-cava-brutale"><a href = "cava-brutale.html">Cava brutale</a>
+                        <div class = "listanascosta">
+                            <p>[lv 50 - 75]</p>
+                        </div>
+                    </li>
+                    <li id = "dropdown-sotterraneo-infetto"><a href = "sotterraneo-infetto.html">Sotter.infetto</a>
+                        <div class = "listanascosta">
+                            <p>[lv 75 - 95]</p>
+                        </div>
+                    </li>
+                    <li id = "dropdown-rovine-antiche"><a href = "rovine-antiche.html">Rovine antiche</a>
+                        <div class = "listanascosta">
+                            <p>[lv 95 - 130]</p>
+                        </div>
+                    </li>
+                    <li id = "dropdown-terra-dannata"><a href = "terra-dannata.html">Terra dannata</a>
+                        <div class = "listanascosta">
+                            <p>[lv 115 - 130]</p>
+                        </div>
+                    </li>
+                    <li id = "dropdown-piramide-antica"><a href = "piramide-antica.html">Piramide antica</a>
+                        <div class = "listanascosta">
+                            <p>[lv 130]</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+<!--
+            <div class = "contenitore-navbar"> <h3 class = "titololista">Mappe speciali 115+</h3>
+                <ul class = "lista">
+                    <li id = "bottone-grande1"><a href = "giardino-del-tormento.html">Giardino del tormento</a></li>
+                    <li id = "ingrandimento-bottone1"><a href = "abisso-dell-inferno.html">Abisso dell'inferno</a></li>
+                    <li><a href = "covo-corrotto.html">Covo corrotto</a></li>
+                    <li><a href = "sala-dell-inganno.html">Sala dell'inganno</a></li>
+                    <li id = "ingrandimento-bottone2"><a href = "selva-del-granchio.html">Selva del granchio</a></li>
+                    <li id = "bottone-grande2"><a href = "tana-del-grifone-eterno.html">Tana del grifone eterno</a></li>
+                </ul>
+            </div>
+-->
+            <div class = "contenitore-navbar"> <h3 class = "titololista">System</h3>
+                <ul class = "lista">
+                    <li id = "dropdown-calendario-eventi"><a href = "calendario-eventi.html">Calendario eventi</a>
+                        <div class = "listanascosta">
+                            <br>
+                                <a href = "calendario-eventi.html#evento-lettere">Evento lettere</a> <br>
+                                <a href = "calendario-eventi.html#esilio-dei-capi">Esilio dei capi</a> <br>
+                                <a href = "calendario-eventi.html#gara-ox-5050">Gara OX 50/50</a> <br>
+                                <a href = "calendario-eventi.html#frammento-della-roccia">Frammento della roccia</a> <br>
+                                <a href = "calendario-eventi.html#forziere-del-teschio">Forziere del teschio</a> <br>
+                                <a href = "calendario-eventi.html#forziere-del-tesoro">Forziere del tesoro</a>
+                        </div>
+                    </li>
+                    <li id = "dropdown-utility-personaggio"><a href = "utility-personaggio.html">Utility personaggio</a>
+                        <div class = "listanascosta">
+                            <br>
+                                <a href = "utility-personaggio.html#inventario-speciale">Inventario speciale </a> <br>
+                                <a href = "utility-personaggio.html#Anteprima">Anteprima</a> <br>
+                                <!--<a>Nascondi costume</a> <br>-->
+                                <a href = "utility-personaggio.html#info-forziere">Info forziere</a> <br>
+                                <a href = "utility-personaggio.html#inserimento-status">Inserimento status</a> <br>
+                                <a href = "utility-personaggio.html#pagina-bonus">Pagina bonus</a> <br>
+                                <a href = "utility-personaggio.html#switch-bonus">Switch bonus</a>
+                    </div>
+
+                    <li id = "dropdown-agevolazioni-gameplay"><a href = "agevolazioni-gameplay.html">Agevolazioni gameplay</a>
+                        <div class = "listanascosta">
+                            <br>
+                                <a href = "agevolazioni-gameplay.html#punti-dungeon">Punti dungeon</a> <br>
+                                <a href = "agevolazioni-gameplay.html#rejoin">Rejoin</a> <br>
+                                <a href = "agevolazioni-gameplay.html#buff">Buff</a> <br>
+                                <a href = "agevolazioni-gameplay.html#gaya-e-yang-infiniti">Gaya e Yang infiniti</a> <br>
+                                <a href = "agevolazioni-gameplay.html#quest-caccia">Quest caccia</a> <br>
+                                <a href = "agevolazioni-gameplay.html#resetta-tempo">Resetta tempo</a>
+                        </div>
+                    </li>
+
+                    <li id = "dropdown-potenziamenti"><a href = "potenziamenti.html">Potenziamenti</a>
+                        <div class = "listanascosta">
+                            <br>
+                            <a href = "potenziamenti.html#anelli-del-potere">Anelli del potere</a> <br>
+                            <a href = "potenziamenti.html#biologo">Biologo</a> <br>
+                            <a href = "potenziamenti.html#anime-del-potere">Anime del potere</a> <br>
+                            <a href = "potenziamenti.html#stole">Stole</a> <br>
+                            <a href = "potenziamenti.html#cinture">Cinture</a> <br>
+                            <a href = "potenziamenti.html#skill">Skill</a> <br>
+                            <a href = "potenziamenti.html#rune-antiche">Rune antiche</a> <br>
+                            <a href = "potenziamenti.html#pozioni-miglioramento">Pozioni miglioramento</a> <br>
+                        </div>
+                    </li>
+
+                    <li><a href = "sistema-creatore.html">Sistema creatore</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id = "content">
+            <div id = "intro">
+                <h1 id = "titolo"><u>Sotterraneo infetto</u></h1><br>
+                <img di = "immagine-intro" src = "images/dungeon/sotterraneo-infetto/sotterraneo-infetto.PNG"> <!-- width = "1300" height = "auto"-->
+
+                <h2>Intro</h2>
+                Questo sarà il quarto dungeon del gioco, per accedervi bisogna essere liv 115.
+                All'interno dropperete l'item per epicizzare il vostro pen'ultimo set PVP Divino in Set finale PVP Celestiale (ed anche gli item up di quest'ultimo).
+                <br>
+            </div>
+            <div id = "paragrafo1">
+                <h2 id = "mob">Mob</h2>
+                <hr>
+                
+                <h3 id = "spirito-del-caos-appestato">Spirito del Caos Appestato</h3>
+                <img id = "img1" class= "popup-img"src = "images/dungeon/sotterraneo-infetto/spirito-del-caos-appestato.gif" alt = "Spirito del Caos Appestato">
+                <div id="myModal" class="modal">
+                
+                    <span class="close">&times;</span>
+            
+                    <img class="modal-content" id="img-extended">
+            
+                    <div id="caption"></div>
+                </div>
+                <ul><h4>Drop:</h4>
+                    <li>Tutti i fiori</li>
+                    <li>Moneta 55k</li>
+                </ul>
+                <br>
+                <hr>
+                <h3 id = "spirito-appestato">Spirito Appestato</h3>
+                <img id = "img2"class= "popup-img" src = "images/dungeon/sotterraneo-infetto/spirito-appestato.gif" alt = "Spirito Appestato">
+                <div id="myModal" class="modal">
+                
+                    <span class="close">&times;</span>
+            
+                    <img class="modal-content" id="img-extended">
+            
+                    <div id="caption"></div>
+                </div>
+                <ul><h4>Drop:</h4>
+                    <li>Tutti i fiori</li>
+                    <li>Moneta 55k</li>
+                    <li>Elisir della creazione</li>
+                    <li>Papiro Consacrato/li>
+                </ul>
+                <br>
+                <hr>
+
+                <h3 id = "orco-appestato">Orco Appestato</h3>
+                <img id = "img10" class= "popup-img"src = "images/dungeon/sotterraneo-infetto/orco-appestato.gif" alt = "Orco Appestato">
+                <div id="myModal" class="modal">
+                
+                    <span class="close">&times;</span>
+            
+                    <img class="modal-content" id="img-extended">
+            
+                    <div id="caption"></div>
+                </div>
+                <ul><h4>Drop:</h4>
+                    <li>Tutti i fiori</li>
+                    <li>Moneta 55k</li>
+                    <li>Elisir della creazione</li>
+                    <li>Papiro Consacrato/li>
+                </ul>
+                <br>
+                <hr>
+
+                <h3 id = "flagellatore-appestato">Flagellatore Appestato</h3>
+                <img id = "img3" class= "popup-img"src = "images/dungeon/sotterraneo-infetto/flagellatore-appestato.gif" alt = "Flagellatore Appestato">
+                <div id="myModal" class="modal">
+                
+                    <span class="close">&times;</span>
+            
+                    <img class="modal-content" id="img-extended">
+            
+                    <div id="caption"></div>
+                </div>
+                <ul><h4>Drop:</h4>
+                    <li>Tutti i fiori</li>
+                    <li>Moneta 55k</li>
+                    <li>Framm. sfera energetica</li>
+                    <li>Sfera energetica</li>
+                    <li>Sfera energ. brillante</li>
+                </ul>
+            </div>
+
+            <div id = "paragrafo1">
+                <h2 id = "metin">Metin</h2>
+                <h3 id = "metin-infetto">Metin Infetto</h3>
+                <img id="img5" class= "popup-img"src="images/dungeon/sotterraneo-infetto/metin-infetto.gif" alt=">Metin Infetto">
+                <div id="myModal" class="modal">
+                
+                    <span class="close">&times;</span>
+            
+                    <img class="modal-content" id="img-extended">
+            
+                    <div id="caption"></div>
+                </div>
+                <ul><h4>Drop:</h4>
+                    <li>Moneta 35k</li>
+                    <li>Papiro consacrato</li>
+                    <li>Tutti i fiori</li>
+                </ul>
+
+                <h3 id = "metin-della-dannazione">Metin della Dannazione</h3>
+                <img id="img6" class= "popup-img"src="images/dungeon/sotterraneo-infetto/metin-della-dannazione.gif" alt="Metin della Dannazione">
+                <div id="myModal" class="modal">
+                
+                    <span class="close">&times;</span>
+            
+                    <img class="modal-content" id="img-extended">
+            
+                    <div id="caption"></div>
+                </div>
+                <ul><h4>Drop:</h4>
+                    <li>Moneta 35k</li>
+                    <li>Papiro consacrato</li>
+                    <li>Tutte le pietre di grado [A]</li>
+                </ul>
+            </div>
+            <div id = "paragrafo1">
+                <h2 id = "miniboss">Miniboss</h2>
+                <h3 id ="mietitore-appestato">Mietitore Appestato</h3>
+
+                <img id="img7" class= "popup-img"src="images/dungeon/sotterraneo-infetto/mietitore-appestato.gif" alt="Mietitore Appestato">
+                <div id="myModal" class="modal">
+                
+                    <span class="close">&times;</span>
+            
+                    <img class="modal-content" id="img-extended">
+            
+                    <div id="caption"></div>
+                </div>
+                <ul><h4>Drop:</h4>
+                    <li>Papiro consacrato</li>
+                    <li>Lamina divina</li>
+                    <li>Stoffa divina</li>
+                    <li>Erbetta divina</li>
+                </ul>
+                <br>
+                <hr>
+                <h3 id = "drago-appestato">Drago Appestato</h3>
+                <img id="img8" class= "popup-img"src="images/dungeon/sotterraneo-infetto/drago-appestato.gif" alt="Drago Appestato">
+                <div id="myModal" class="modal">
+                
+                    <span class="close">&times;</span>
+            
+                    <img class="modal-content" id="img-extended">
+            
+                    <div id="caption"></div>
+                </div>
+                <ul><h4>Drop:</h4>
+                    <li>Lamina divina</li>
+                    <li>Stoffa divina</li>
+                    <li>Erbetta divina</li>
+                    <li>Punto infetto</li>
+                    <li>Nucleo divino</li>
+                    <li>Lingotto 1kk</li>
+                    <li>Forziere dio drago</li>
+                    <li>Forziere delle utilità</li>
+                    <li>Sfera benedetta</li>
+                    <li>Frutto della vita</li>
+                    <li>Elisir del sole e della luna (G)</li>
+                    <li>Elisir del successo</li>
+                </ul>
+
+            </div>
+            <div id = "paragrafo1">
+                <h2 id = "boss">Boss</h2>
+                <h3 id = "re-degli-appestati">Re degli Appestati</h3>
+                
+                <img id="img9" class= "popup-img"src="images/dungeon/sotterraneo-infetto/re-degli-appestati.gif" alt="Re degli Appestati">
+                <div id="myModal" class="modal">
+                
+                    <span class="close">&times;</span>
+            
+                    <img class="modal-content" id="img-extended">
+            
+                    <div id="caption"></div>
+                </div>
+                <ul><h4>Drop:</h4>
+                    Forziere dei Titoli [F]</li>
+                    <li>Forziere dei Titoli [M]</li>
+                    <li>Ampl. negozio di gaya</li>
+                    <li>Resetta negozio di gaya</li>
+                    <li>Elisir del baek-go</li>
+                    <li>Benedizione (g)</li>
+                    <li>Riflessione (g)</li>
+                    <li>Aiuto del drago (g)</li>
+                    <li>Forziere dio drago</li>
+                    <li>Pietra magica</li>
+                    <li>Punto infetto</li>
+                    <li>Sacchetto gemme</li>
+                    <li>Mant. del coraggio (3g)</li>
+                    <li>Certif. cavalcature [A]</li>
+                    <li>Uovo pet [A]</li>
+                    <li>Frutto della vita</li>
+                    <li>Elisir del sole e della luna (G)</li>
+                    <li>Elisir del successo</li>
+                    <li>Gemma</li>
+                    <li>Stoffa sottile</li>
+                    <li>Papiro consacrato</li>
+                    <li>Sfera benedetta</li>
+                    <li>Lingotto 3kk</li>
+                    <li>Forziere delle utilità</li>
+                    <li>Reliquia divina</li>
+                    <li>Aura divina</li>
+                </ul>
+            </div>           
+        </div>
+
+        
+
+
+        <div id = "indice">
+            <div id = "sottoindice">
+                <h2>Indice</h2>
+            <ol id = "lista-indice">
+                <li><a href = "#intro">Introduzione</a></li>
+                <li><a href = "#mob">Mob</a></li>
+                    <ul>
+                        <li><a href = "#spirito-del-caos-appestato">Spirito del Caos Appestato</li>
+                        <li><a href = "#spirito-appestato">Spirito Appestato</a></li>
+                        <li><a href = "#orco-appestato">Orco Appestato</a></li>
+                        <li><a href = "#flagellatore-appestato">Flagellatore Appestato</a></li>
+                    </ul>
+                <li><a href = "#metin">Metin</a></li>
+                <ul>
+                    <li><a href = "#metin-della-dannazione">Metin Infetto</li>
+                    <li><a href = "#etin-infetto">Metin della Dannazione</a></li>
+                </ul>
+                <li><a href = "#miniboss">Miniboss</a></li>
+                    <ul>
+                        <li><a href = "#mietitore-appestato">Mietitore Appestato</a></li>
+                        <li><a href = "#drago-appestato">Drago Appestato</a></li>
+                    </ul>
+                <li><a href = "#re-degli-appestati">Boss</a></li>
+            </ol>
+            </div>
+        </div>
+    </div>
+
+        <br>
+    </body>
+
+
+    <footer id = "footer-top">
+        <!--<a href = "#">Torna su ↑</a>-->
+    </footer>
+    <footer class="footer-distributed">
+
+        <div class="footer-right">
+    
+            <a id = "logo-facebook" href="https://www.facebook.com/people/Shyra-Italia/100077700224879/" target="_blank"><img src = "images/logo-facebook.png" height="32px" width="32px"></a>
+            <a id = "logo-instagram" href="https://www.instagram.com/shyra_game/" target="_blank"><img src = "images/logo-instagram.png" height="32px" width="32px"></a>
+            <a id = "logo-discord" href ="https://discord.gg/NkV7p74Xkm" target="_blank"><img src = "images/logo-discord.png" height="32px" width="32px"></a>
+            <a id = "logo-youtube" href="https://www.youtube.com/channel/UC33TpkBeyCKhufjGPXlH7Bg" target="_blank"><img src = "images/logo-youtube.png" height="32px" width="32px"></a>
+        </div>
+    
+        <div class="footer-left">
+    
+            <p class="footer-links">
+                <a href="https://shyra.online/" target="_blank">Home Page</a>
+                <a><b><u>Guida</u></b></a>
+                <a href="https://shyra.online/download" target="_blank">Downlod</a>
+                <a href="https://discord.gg/NkV7p74Xkm" target="_blank">Discord</a>
+                <a href = "https://www.inforge.net/forum/threads/shyra-official-new-style-apertura-imminente.608787/" target="_blank">Inforge</a>
+            </p>
+    
+            <p>Shyra</p>
+        </div>
+    </footer>
+    <footer id = "footer-bot">
+        <div></div>
+    </footer>
+</html>

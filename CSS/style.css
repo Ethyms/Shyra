@@ -1,0 +1,912 @@
+body {
+    /*background: linear-gradient(#111212, #37145e); background: linear-gradient(#a3080b, #3b0711);*/
+    background-image: url("../images/sfondo.png");
+    background-repeat: no-repeat;
+    background-color: black;
+    font-family: "Arial", serif;
+    font-size: 16px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+
+    background-size: cover;
+    background-attachment:fixed;
+    background-position:center center;
+}
+
+img#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+/* Stile pagina*/
+
+#content-main {
+    background-color: rgba(110, 93, 94, .7);
+    display: flex;
+    padding: 1%;
+    margin: 5%;
+    margin-left:5%;
+    margin-right:5%;
+    font-family: 'Calibri', sans-serif;
+    color:#e6bf15;
+}
+
+div#indice {
+    flex-grow: 1;  
+    order: 3;    
+    width: 5%;
+}
+
+div#Navbar{
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    flex-grow: 1;
+    order: 1;    
+    width: 13%;
+    padding: 5px
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-bottom: 5%;
+    font-family: 'Calibri', sans-serif; 
+}
+
+div#content{
+    flex-grow: 2;  
+    order: 2;
+    width: 70%;
+}
+
+div#indice {
+        border-top-left-radius: 17px;
+        border-bottom-left-radius: 17px;
+        flex-grow: 1;
+        order: 3;    
+        width: 13%;
+        margin-left: 1%;
+        margin-right: 1%;
+        padding-bottom: 5%;
+        font-family: 'Calibri', sans-serif; 
+        padding-top: 5px;
+}
+
+
+#sottoindice{
+    background-color: rgba(112, 14, 20, 0.7);
+    border-radius: 20px;
+    border: solid #e6bf15;
+    color: #e6bf15;
+    padding-bottom: 3%;
+    margin-bottom: 2.5%;
+}
+
+div#indice h2 {
+    max-width: 651;
+    background-color:rgba(63, 32, 34, 0.7);
+    margin-top: 0px;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    padding: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#sottolista-indice {
+    margin: 0%;
+    padding:0%;
+}
+
+a {
+    color: #e6bf15;
+}
+a:hover {
+    font-weight: bold;
+}
+
+/* Navbar*/
+div.contenitore-navbar {
+    background-color: rgba(112, 14, 20, 0.7);
+    border-radius: 20px;
+    border: solid #e6bf15;
+    color: #e6bf15;
+    border: solid  #e6bf15;
+    padding-bottom: 3%;
+    margin-bottom: 2.5%;
+}
+
+.lista li {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    padding: 5%;
+    margin: 3px;
+    margin-right: 10%;
+    margin-left: 10%;
+    list-style: none;
+    list-style-position: outside;
+    height: 20px
+}
+
+ul.lista {
+    list-style: none;
+    list-style-position: outside;
+    margin: 0%;
+    padding:0%;
+}
+
+#torna-su {
+    background-color: rgba(110, 93, 94, .7);
+    color: rgba(110, 93, 94, .7);
+    position: fixed;
+    height: 25px;
+    width: 25px;
+    bottom: 1%;
+    right: 1%;
+    padding: 5px;
+}
+
+#torna-su:hover {
+    font: normal;
+}
+
+#bottone-grande1 {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    padding: 5%;
+    margin: 3px;
+        margin-right: 10%;
+    margin-left: 10%;
+    height: 35px;
+    transition: height 0.5s;
+}
+
+#bottone-grande2 {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    padding: 5%;
+    margin: 3px;
+        margin-right: 10%;
+    margin-left: 10%;
+    height: 35px;
+    transition: height 0.5s;
+}
+
+/*
+#ingrandimento-bottone1 {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    padding: 5%;
+    margin: 3px;
+    margin-right: 20%;
+    height: 20px;
+    transition: height 0.5s;
+}
+
+#ingrandimento-bottone1:hover {
+    height: 35px;
+    font-weight: bold;
+}
+
+#ingrandimento-bottone2 {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    padding: 5%;
+    margin: 3px;
+    margin-right: 20%;
+    height: 20px;
+    transition: height 0.5s;
+}
+
+#ingrandimento-bottone2:hover {
+    height: 35px;
+    font-weight: bold;
+}
+*/
+
+/*Dropdown valle*/
+#dropdown-valle {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    padding: 5%;
+    margin: 3px;
+        margin-right: 10%;
+    margin-left: 10%;
+    height: 20px;
+    transition: height 0.5s;
+}
+
+#dropdown-valle p{
+    font-weight: bold;
+
+}
+
+#dropdown-valle:hover {
+    height: 65px;
+}
+
+#dropdown-valle div{
+    display: none;
+    clear: both;
+    text-align: center;
+    transition: height 2s;
+    height: 100px;
+}
+
+#dropdown-valle:hover div{
+    display: block;
+}
+
+/* dropdown-piana-esoterica */
+
+#dropdown-piana-esoterica {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    padding: 5%;
+    margin: 3px;
+        margin-right: 10%;
+    margin-left: 10%;
+    height: 20px;
+    transition: height 0.5s;
+}
+
+#dropdown-piana-esoterica p{
+    font-weight: bold;
+
+}
+
+#dropdown-piana-esoterica:hover {
+    height: 65px;
+}
+
+#dropdown-piana-esoterica div{
+    display: none;
+    clear: both;
+    text-align: center;
+    transition: height 2s;
+    height: 100px;
+}
+
+#dropdown-piana-esoterica:hover div{
+    display: block;
+}
+
+/* dropdown-sentiero-magico */
+
+#dropdown-sentiero-magico {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    padding: 5%;
+    margin: 3px;
+        margin-right: 10%;
+    margin-left: 10%;
+    height: 20px;
+    transition: height 0.5s;
+}
+
+#dropdown-sentiero-magico p{
+    font-weight: bold;
+
+}
+
+#dropdown-sentiero-magico:hover {
+    height: 65px;
+}
+
+#dropdown-sentiero-magico div{
+    display: none;
+    clear: both;
+    text-align: center;
+    transition: height 2s;
+    height: 100px;
+}
+
+#dropdown-sentiero-magico:hover div{
+    display: block;
+}
+
+/* dropdown-monte-ghiacciato */
+
+#dropdown-monte-ghiacciato {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    padding: 5%;
+    margin: 3px;
+        margin-right: 10%;
+    margin-left: 10%;
+    height: 20px;
+    transition: height 0.5s;
+}
+
+#dropdown-monte-ghiacciato p{
+    font-weight: bold;
+
+}
+
+#dropdown-monte-ghiacciato:hover {
+    height: 65px;
+}
+
+#dropdown-monte-ghiacciato div{
+    display: none;
+    clear: both;
+    text-align: center;
+    transition: height 2s;
+    height: 100px;
+}
+
+#dropdown-monte-ghiacciato:hover div{
+    display: block;
+}
+
+/* dropdown-tempio-hwang */
+
+#dropdown-tempio-hwang {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    padding: 5%;
+    margin: 3px;
+        margin-right: 10%;
+    margin-left: 10%;
+    height: 20px;
+    transition: height 0.5s;
+}
+
+#dropdown-tempio-hwang p{
+    font-weight: bold;
+
+}
+
+#dropdown-tempio-hwang:hover {
+    height: 65px;
+}
+
+#dropdown-tempio-hwang div{
+    display: none;
+    clear: both;
+    text-align: center;
+    transition: height 2s;
+    height: 100px;
+}
+
+#dropdown-tempio-hwang:hover div{
+    display: block;
+}
+
+/* dropdown-sabbie-della-sofferenza */
+
+#dropdown-sabbie-della-sofferenza {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    padding: 5%;
+    margin: 3px;
+        margin-right: 10%;
+    margin-left: 10%;
+    height: 35px;
+    transition: height 0.5s;
+}
+
+#dropdown-sabbie-della-sofferenza p{
+    font-weight: bold;
+
+}
+
+#dropdown-sabbie-della-sofferenza:hover {
+    height: 85px;
+}
+
+#dropdown-sabbie-della-sofferenza div{
+    display: none;
+    clear: both;
+    text-align: center;
+    transition: height 2s;
+    height: 100px;
+}
+
+#dropdown-sabbie-della-sofferenza:hover div{
+    display: block;
+}
+
+/* dropdown-maappe-speciali */
+#dropdown-mappe-speciali {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    padding: 5%;
+    margin: 3px;
+        margin-right: 10%;
+    margin-left: 10%;
+    height: 20px;
+    transition: height 0.5s;
+}
+
+#dropdown-mappe-speciali p{
+    font-weight: bold;
+
+}
+
+#dropdown-mappe-speciali:hover {
+    height: 65px;
+}
+
+#dropdown-mappe-speciali div{
+    display: none;
+    clear: both;
+    text-align: center;
+    transition: height 2s;
+    height: 100px;
+}
+
+#dropdown-mappe-speciali:hover div{
+    display: block;
+}
+
+
+/* dropdown-cava-brutale */
+
+#dropdown-cava-brutale {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    padding: 5%;
+    margin: 3px;
+        margin-right: 10%;
+    margin-left: 10%;
+    height: 20px;
+    transition: height 0.5s;
+}
+
+#dropdown-cava-brutale p{
+    font-weight: bold;
+
+}
+
+#dropdown-cava-brutale:hover {
+    height: 65px;
+}
+
+#dropdown-cava-brutale div{
+    display: none;
+    clear: both;
+    text-align: center;
+    transition: height 2s;
+    height: 100px;
+}
+
+#dropdown-cava-brutale:hover div{
+    display: block;
+}
+
+/* dropdown-sotterraneo-infetto */
+
+#dropdown-sotterraneo-infetto {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    padding: 5%;
+    margin: 3px;
+        margin-right: 10%;
+    margin-left: 10%;
+    height: 20px;
+    transition: height 0.5s;
+}
+
+#dropdown-sotterraneo-infetto p{
+    font-weight: bold;
+
+}
+
+#dropdown-sotterraneo-infetto:hover {
+    height: 65px;
+}
+
+#dropdown-sotterraneo-infetto div{
+    display: none;
+    clear: both;
+    text-align: center;
+    transition: height 2s;
+    height: 100px;
+}
+
+#dropdown-sotterraneo-infetto:hover div{
+    display: block;
+}
+
+/* dropdown-rovine-antiche */
+
+#dropdown-rovine-antiche {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    padding: 5%;
+    margin: 3px;
+        margin-right: 10%;
+    margin-left: 10%;
+    height: 20px;
+    transition: height 0.5s;
+}
+
+#dropdown-rovine-antiche p{
+    font-weight: bold;
+
+}
+
+#dropdown-rovine-antiche:hover {
+    height: 65px
+}
+
+#dropdown-rovine-antiche div{
+    display: none;
+    clear: both;
+    text-align: center;
+    transition: height 2s;
+    height: 100px;
+}
+
+#dropdown-rovine-antiche:hover div{
+    display: block;
+}
+
+/* dropdown-terra-dannata */
+
+#dropdown-terra-dannata {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    padding: 5%;
+    margin: 3px;
+        margin-right: 10%;
+    margin-left: 10%;
+    height: 20px;
+    transition: height 0.5s;
+}
+
+#dropdown-terra-dannata p{
+    font-weight: bold;
+
+}
+
+#dropdown-terra-dannata:hover {
+    height: 65px
+}
+
+#dropdown-terra-dannata div{
+    display: none;
+    clear: both;
+    text-align: center;
+    transition: height 2s;
+    height: 100px;
+}
+
+#dropdown-terra-dannata:hover div{
+    display: block;
+}
+
+/* dropdown-piramide-antica */
+
+#dropdown-piramide-antica {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    padding: 5%;
+    margin: 3px;
+        margin-right: 10%;
+    margin-left: 10%;
+    height: 20px;
+    transition: height 0.5s;
+}
+
+#dropdown-piramide-antica p{
+    font-weight: bold;
+
+}
+
+#dropdown-piramide-antica:hover {
+    height: 65px
+}
+
+#dropdown-piramide-antica div{
+    display: none;
+    clear: both;
+    text-align: center;
+    transition: height 2s;
+    height: 100px;
+}
+
+#dropdown-piramide-antica:hover div{
+    display: block;
+}
+
+/*dropdown-calendario-eventi */
+
+#dropdown-calendario-eventi {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    padding: 5%;
+    margin: 3px;
+        margin-right: 10%;
+    margin-left: 10%;
+    height: 20px;
+    transition: height 0.5s;
+}
+
+#dropdown-calendario-eventi:hover {
+    height: 200px;
+}
+
+#dropdown-calendario-eventi div{
+    display: none;
+    clear: both;
+    text-align: center;
+    transition: height 2s;
+    height: 100px;
+}
+
+
+#dropdown-calendario-eventi:hover div{
+    display: block;
+}
+
+/* dropdown-utility-personaggio */
+
+#dropdown-utility-personaggio {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    padding: 5%;
+    margin: 3px;
+        margin-right: 10%;
+    margin-left: 10%;
+    height: 35px;
+    transition: height 0.5s;
+}
+
+#dropdown-utility-personaggio:hover {
+    height: 210px;
+}
+
+#dropdown-utility-personaggio div{
+    display: none;
+    clear: both;
+    text-align: center;
+    transition: height 2s;
+    height: 100px;
+}
+
+
+#dropdown-utility-personaggio:hover div{
+    display: block;
+}
+
+/* dropdown-agevolazioni-gameplay */
+
+#dropdown-agevolazioni-gameplay {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    padding: 5%;
+    margin: 3px;
+        margin-right: 10%;
+    margin-left: 10%;
+    height: 35px;
+    transition: height 0.5s;
+}
+
+#dropdown-agevolazioni-gameplay:hover {
+    height: 205px;
+}
+
+#dropdown-agevolazioni-gameplay div{
+    display: none;
+    clear: both;
+    text-align: center;
+    transition: height 2s;
+    height: 100px;
+}
+
+
+#dropdown-agevolazioni-gameplay:hover div{
+    display: block;
+}
+
+/* Dropdown potenziamenti */
+
+#dropdown-potenziamenti {
+    text-align: center;
+    background: radial-gradient(#b3020c,#000000);
+    padding: 5%;
+    margin: 3px;
+        margin-right: 10%;
+    margin-left: 10%;
+    height: 20px;
+    transition: height 0.5s;
+}
+
+#dropdown-potenziamenti:hover {
+    height: 205px;
+}
+
+#dropdown-potenziamenti div{
+    display: none;
+    clear: both;
+    text-align: center;
+    transition: height 2s;
+    height: 100px;
+}
+
+
+#dropdown-potenziamenti:hover div{
+    display: block;
+}
+
+.listanascosta{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.listanascosta li {
+    border: solid black;
+}
+
+
+
+div#sistemadigioco{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.856);
+    border: solid  #e6bf15;
+    padding-bottom: 3%;
+    margin-top: 2.5%; 
+}
+ 
+h3.titololista {
+    max-width: 651;
+    background-color:rgba(63, 32, 34, 0.7);
+    margin-top: 0px;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    padding: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+/* Footer */
+footer{
+    color: white;
+    clear: both;
+    text-align: center;
+}
+
+footer li{
+display: inline-block;
+display: flex inline center;
+}
+
+/*
+#footer-top {
+    background-color: #101113;
+    padding: 3px;
+}
+
+#footer-top a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+}
+
+#footer-top a:hover{
+    text-decoration: underline;
+}
+
+*/
+
+#footer-top {
+    padding: 12px;
+    background-color: #101113;
+}
+
+#footer-bot {
+    padding: 12px;
+    background-color: #101113;
+}
+section {
+  width: 100%;
+  display: inline-block;
+  background: #ccc;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  /*background-color: #33383b;*/
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+#logo-facebook {
+    background-image: "../images/logo-facebook.png"
+}
+
+/* Media Queries 
+
+@media (max-width: 600px) {
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}
+*/
